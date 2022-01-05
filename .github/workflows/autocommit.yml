@@ -29,16 +29,16 @@ jobs:
           git config --local user.name "mrliputo"
           git add -A
           
-          arr[0]="chore(bot): 😂 working commit"
-          arr[1]="chore(bot): 😱 working commit"
-          arr[2]="chore(bot): 👿 working commit"
-          arr[3]="chore(bot): 💩 working commit"
-          arr[4]="chore(bot): 🙏 working commit"
-          arr[5]="chore(bot): 🙈 working commit"
-          arr[6]="chore(bot): 🐐 working commit"
-          arr[7]="chore(bot): 🤖 working commit"
-          arr[8]="chore(bot): 🟩 working commit"
-          arr[9]="chore(bot): 👻 working commit"
+          arr[0]="this now : 😂 working commit"
+          arr[1]="wow : 😱 working commit"
+          arr[2]="progress: 👿 working commit"
+          arr[3]="let me know : 💩 working commit"
+          arr[4]="on line: 🙏 working commit"
+          arr[5]="for fix: 🙈 working commit"
+          arr[6]="wokeh: 🐐 working commit"
+          arr[7]="what: 🤖 working commit"
+          arr[8]="okeh: 🟩 working commit"
+          arr[9]="hmmm: 👻 working commit"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
